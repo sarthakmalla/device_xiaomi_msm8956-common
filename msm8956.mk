@@ -156,8 +156,8 @@ PRODUCT_PACKAGES += \
 
 # Doze mode
 PRODUCT_PACKAGES += \
-    XiaomiDoze \
-    XiaomiParts
+    XiaomiParts \
+    XiaomiDoze
 
 # Face detection extension
 PRODUCT_PACKAGES += \
