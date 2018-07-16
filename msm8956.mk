@@ -298,6 +298,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp_policy/mediacodec.policy:system/vendor/etc/seccomp_policy/mediacodec.policy
 
+
+# Thermal
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/thermal-engine-8956.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8956.conf \
+    $(LOCAL_PATH)/configs/thermal-engine-8976.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8976.conf
+
 # USB HAL
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
